@@ -15,6 +15,7 @@ public class MyPagerAdapter extends PagerAdapter{
         this.list = list;
     }
 
+    
     @Override
     public int getCount() {
         return list.size();
